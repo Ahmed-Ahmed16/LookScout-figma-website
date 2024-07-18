@@ -617,6 +617,12 @@ footer #footSpan::after {
   section .sub-footer h1 {
     max-width: 100%;
   }
+
+ footer .container .right-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 375px) {
