@@ -545,9 +545,10 @@ footer #footSpan::after {
     font-size: 14px;
   }
 
-  img {
+  .articles h5,
+  p,
+  span {
     max-width: 100%;
-    height: auto;
   }
 
   section .hook h1 {
