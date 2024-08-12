@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- bootstrap  -->
-    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css    "
-    />
-
-    <!-- font awesome  -->
-    <link
-      rel="stylesheet"
-      href="../fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
@@ -31,7 +22,7 @@
     <!-- HEADER  -->
     <header>
       <!-- NAV BAR -->
-      <nav class="nav-bar container">
+      <nav class="nav-bar">
         <div class="left-nav">
           <a id="homeLogo" href="#Home">
             <img src="images/Company Logo.svg" alt="Logo"
@@ -50,10 +41,12 @@
         <i id="menuLogo" class="fa-solid fa-bars"></i>
       </nav>
       <!-- Hook / hype section  -->
-      <section>
-        <div class="container hook">
-          <span>1% of the industry </span>
-          <h1>Hype got you here. Stay for the support.</h1>
+      <section class="hookSec">
+        <div class="container">
+          <div class="hook">
+            <span>1% of the industry </span>
+            <h1>Hype got you here. Stay for the support.</h1>
+          </div>
         </div>
       </section>
       <!-- News letter  -->
@@ -84,58 +77,60 @@
     </header>
     <!-- ARTICLES  -->
     <section class="phone">
-      <div class="container articles">
-        <div id="mainArticle" class="article1">
-          <img src="images/article1.jpg" alt="article1" />
-          <h5>Reach your users with new tools.</h5>
+      <div class="container">
+        <div class="articles">
+          <div id="mainArticle" class="article1">
+            <img id="imgOne" src="images/article1.jpg" alt="article1" />
+            <h5>Reach your users with new tools.</h5>
 
-          <p>
-            Efficiently unleash cross-media information without cross-media
-            value. Quickly maximize.Efficiently unleash cross-media information
-            without cross-media value. Quickly maximize.Efficiently unleash
-            cross-media.
-          </p>
-          <!-- Sub articles  -->
-          <span>25 Apr 2022 </span>
-        </div>
-        <div class="sub-articles">
-          <div class="sub-article">
-            <img src="images/article2.jpg" alt="article2" />
-            <div>
-              <h5>Revolutionizing the Design Industry</h5>
-
-              <p>
-                Efficiently unleash cross-media information without cross-media
-                value. Quickly maximize.
-              </p>
-
-              <span>25 Apr 2022 - Blog theme </span>
-            </div>
+            <p>
+              Efficiently unleash cross-media information without cross-media
+              value. Quickly maximize.Efficiently unleash cross-media
+              information without cross-media value. Quickly
+              maximize.Efficiently unleash cross-media.
+            </p>
+            <!-- Sub articles  -->
+            <span>25 Apr 2022 </span>
           </div>
-          <div class="sub-article">
-            <img src="images/article3.jpg" alt="article3" />
-            <div>
-              <h5>Reach your users with new tools</h5>
+          <div class="sub-articles">
+            <div class="sub-article">
+              <img src="images/article2.jpg" alt="article2" />
+              <div>
+                <h5>Revolutionizing the Design Industry</h5>
 
-              <p>
-                Completely synergize resource taxing relationships via premier
-                niche markets.
-              </p>
+                <p>
+                  Efficiently unleash cross-media information without
+                  cross-media value. Quickly maximize.
+                </p>
 
-              <span>25 Apr 2022 - Blog theme </span>
+                <span>25 Apr 2022 - Blog theme </span>
+              </div>
             </div>
-          </div>
-          <div class="sub-article">
-            <img src="images/article4.jpg" alt="article4" />
-            <div>
-              <h5>Faster ways to reach your customer</h5>
+            <div class="sub-article">
+              <img src="images/article3.jpg" alt="article3" />
+              <div>
+                <h5>Reach your users with new tools</h5>
 
-              <p>
-                Efficiently unleash cross-media information without cross-media
-                value. Quickly maximize.
-              </p>
+                <p>
+                  Completely synergize resource taxing relationships via premier
+                  niche markets.
+                </p>
 
-              <span>25 Apr 2022 - Blog theme </span>
+                <span>25 Apr 2022 - Blog theme </span>
+              </div>
+            </div>
+            <div class="sub-article">
+              <img src="images/article4.jpg" alt="article4" />
+              <div>
+                <h5>Faster ways to reach your customer</h5>
+
+                <p>
+                  Efficiently unleash cross-media information without
+                  cross-media value. Quickly maximize.
+                </p>
+
+                <span>25 Apr 2022 - Blog theme </span>
+              </div>
             </div>
           </div>
         </div>
@@ -238,13 +233,15 @@
     </section>
     <!-- sub footer  -->
     <section>
-      <div class="sub-footer container">
-        <p>1% of the industry</p>
-        <h1>
-          Welcome to your new digital reality that which will rock your world
-          truly at all.
-        </h1>
-        <button class="">Sign up</button>
+      <div class="sub-footer">
+        <div class="container">
+          <p>1% of the industry</p>
+          <h1>
+            Welcome to your new digital reality that which will rock your world
+            truly at all.
+          </h1>
+          <button class="">Sign up</button>
+        </div>
       </div>
     </section>
 
@@ -275,6 +272,11 @@
             <li>Watch the Demo</li>
           </ul>
 
+          <!-- better HTML and easier to control  -->
+          <!-- <div class="List1">
+            <h6></h6>
+            <ul></ul>
+          </div> -->
           <ul>
             <li class="firstLi">Company</li>
             <li>Leadership</li>
@@ -283,7 +285,7 @@
             <li>Media Kit</li>
           </ul>
 
-          <ul>
+          <ul id="ull">
             <li class="firstLi">Resources</li>
             <li>Community</li>
             <li>Events</li>
@@ -292,9 +294,23 @@
           </ul>
         </div>
       </div>
+      <!-- THE LINE CAN BE BORDER not after/before -->
       <span id="footSpan" class="container"
         >© 2023 Lookscout. All Rights Reserved.</span
       >
     </footer>
   </body>
 </html>
+
+<!-- better html  -->
+<!-- ____GRID for parent container
+     then FLEX for right content__________ -->
+<!-- <footer class="footer">
+  <div class="container">
+    <section class="footContent">
+      <div class="left"></div>
+      <div class="right"></div>
+    </section>
+    <span></span>
+  </div>
+</footer> -->
